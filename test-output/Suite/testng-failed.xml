@@ -4,6 +4,16 @@
   <test name="Test">
     <classes>
       <class name="Tests.Test1"/>
+      <class name="Tests.Test2"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="Tests.Test2">
+        <methods>
+          <include name="clickGmail"/>
+        </methods>
+      </class> <!-- Tests.Test2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

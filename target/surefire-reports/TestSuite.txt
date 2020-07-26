@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.415 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 35.646 s <<< FAILURE! - in TestSuite
+Tests.Test2.clickGmail  Time elapsed: 15.372 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Tests.Test2.clickGmail(Test2.java:12)
+
